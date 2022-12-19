@@ -27,7 +27,7 @@ endif()
 set_directory_properties(PROPERTIES COMPILE_DEFINITIONS_DEBUG "_DEBUG")
 
 ##### BEGIN GOOGLE TEST INSTALLATION #####
-# Copied from https://github.com/google/googletest/tree/master/googletest#incorporating-into-an-existing-cmake-project
+# Copied from https://github.com/google/googletest/tree/main/googletest#incorporating-into-an-existing-cmake-project
 # Download and unpack googletest at configure time
 configure_file(CMakeLists.txt.in googletest-download/CMakeLists.txt)
 execute_process(COMMAND ${CMAKE_COMMAND} -G "${CMAKE_GENERATOR}" .
